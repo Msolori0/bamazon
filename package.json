@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Msolori0/bamazon.git"
+  },
+  "author": "Michelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Msolori0/bamazon/issues"
+  },
+  "homepage": "https://github.com/Msolori0/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "mysql": "^2.15.0"
+  }
+}
