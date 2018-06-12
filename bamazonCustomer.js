@@ -18,6 +18,8 @@ connection.connect(function (err) {
 
 function start() {
 
+    console.log("Welcome to Michelle's Snack Shop!")
+    console.log("Please select a snack from our iventory!")
     connection.query("SELECT * FROM snacks", function (err, res) {
         console.log("-----------------------------------")
         for (var i = 0; i < res.length; i++) {
@@ -50,6 +52,7 @@ function start() {
                     start();
                 }
                 else {
+                    console.log("Receipt")
                     console.log("Product Chosen: " + chosenProduct);
                     console.log("Amount Chosen: " + chosenQuantity);
                     console.log("Total: $" + newTotal);
